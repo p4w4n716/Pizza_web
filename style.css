@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  header, footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  legend {
+    font-weight: bold;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-actions {
+    text-align: center;
+  }
+  .form-actions input {
+    width: auto;
+    margin: 0 10px;
+    padding: 10px 20px;
+  }
+  .img-container {
+    text-align: center;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: 50%;
+  }
